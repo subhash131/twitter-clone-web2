@@ -3,8 +3,8 @@ import { Card, Text } from "@tremor/react"
 
 const Trending = () => {
 	return (
-		<Card>
-			<Text className='text-xl text-black'>What's Happening?</Text>
+		<Card className='sticky top-0'>
+			<Text className='text-xl text-black'>Trending</Text>
 			<Text>#AI</Text>
 			<Text>#web3</Text>
 			<Text>#blockchain</Text>

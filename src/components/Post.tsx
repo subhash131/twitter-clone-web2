@@ -3,7 +3,7 @@ import { Card, Text } from "@tremor/react"
 import { Eye, Heart, MessageCircle, Repeat2, Upload } from "lucide-react"
 
 const Post = ({ props }: any) => {
-	const { description, image, _id } = props
+	const { description, image, owner } = props
 
 	return (
 		<Card className='rounded-none'>
@@ -16,7 +16,7 @@ const Post = ({ props }: any) => {
 					/>
 					<div className='ml-6'>
 						<label className='text-[0.7rem] text-[grey]'>
-							{_id}
+							{owner}
 						</label>
 						<Text className='py-2 text-[gray]'>{description}</Text>
 					</div>

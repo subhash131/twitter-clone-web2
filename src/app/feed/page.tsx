@@ -60,8 +60,8 @@ const Feed = () => {
 		<div className='w-[76rem] m-auto'>
 			<Navbar />
 			<div className='flex ml-64'>
-				<div className='w-[40rem]'>
-					<Card className='rounded-none transition-all delay-200'>
+				<div className='w-[40rem] top-0'>
+					<Card className='rounded-none transition-all delay-200 sticky top-0 z-10'>
 						<Toaster />
 						<div className='flex'>
 							<img
@@ -110,7 +110,6 @@ const Feed = () => {
 				</div>
 				<div className='w-[20rem]'>
 					<Trending />
-					<Follow />
 				</div>
 			</div>
 		</div>
